@@ -1,0 +1,29 @@
+.tabs-container {
+  display: flex;
+  align-items: center;
+  .tab-item {
+    font-size: 16px;
+    color: $gray;
+    cursor: pointer;
+    margin-right: 16px;
+    font-weight: 500;
+    transition: 0.4s;
+    z-index: 9;
+    margin-right: 24px;
+    &.active {
+      position: relative;
+      //   color: #333333;
+      color: $black;
+      &:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        background: #0d6efd;
+        height: 2px;
+        left: 0;
+        bottom: 2px;
+        z-index: 1;
+      }
+    }
+  }
+}

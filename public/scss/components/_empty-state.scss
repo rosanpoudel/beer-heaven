@@ -1,0 +1,17 @@
+.empty-state {
+  background: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 150px 0 400px 0;
+  p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+    color: $gray;
+
+    span {
+      cursor: pointer;
+    }
+  }
+}
